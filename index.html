@@ -1,0 +1,254 @@
+\
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Pirarrium</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="frame1transbg.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background: linear-gradient(to bottom, #53ea6f, #55b54f); /* Green */
+    color: #ffffff;
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .bg-2 {
+    background: linear-gradient(to bottom, #47a043, #306b2c); /* Darker Green  */
+    color: #ffffff;
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .bg-3 {
+    background: linear-gradient(to bottom, #265a23, #1b3f18); /* Darkest Green */
+    color: #ffffff;
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .bg-4 {
+    background: linear-gradient(to bottom, #78786c, #3f3f3a); /* Gray */
+    color: #ffffff;
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .bg-5 {
+    background: linear-gradient(to bottom, #6f90f4, #0c343f); /* Light Blue Gray */
+    color: #fff;
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .bg-6 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .btn-spin {
+    background-color: #f6cc42; /* Change this to your desired color */
+    border-color: #cc7a00; /* Change this to match the background color or use a different color */
+    color: #0e5d3b; /* Text color */
+    border-width: 3px; /* Adjust the border thickness as needed */
+  }
+
+  .btn-spin:hover,
+  .btn-spin:focus,
+  .btn-spin:active,
+  .btn-spin.active,
+  .open .dropdown-toggle.btn-spin {
+    background-color: #cc7a00; /* Change this to your desired color on hover, focus, active */
+    border-color: #cc7a00; /* Change this to match the background color or use a different color */
+    color: #ffffff; /* Text color on hover, focus, active */
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .container-fluid.bg-1.text-center {
+    padding-bottom: 20px;
+  }
+
+  /* Adjust the max-width, max-height, and margin values as needed */
+  .embed-responsive {
+    max-width: 800px; /* Set the maximum width for the iframe container */
+    max-height: 450px; /* Set the maximum height for the iframe container */
+    margin: 0 auto; /* Center the iframe container horizontally */
+    overflow: hidden; /* Hide overflowing content */
+  }
+
+  .embed-responsive iframe {
+    width: 100%; /* Ensure the iframe fills the container */
+    height: 100%; /* Ensure the iframe fills the container */
+  }
+
+  .role {
+    color: #ffffff; /* Example color */
+    margin-top: 10px; /* Example spacing */
+    font-size: 15px; /* Smaller font size */
+    font-style: italic;
+  }
+
+  .navbar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+  }
+  .navbar-brand-title {
+    font-size: 20px; /* Adjust the size as needed */
+    font-weight: normal; /* Optional: if you want the title to be bold */
+  }
+  .navbar-fixed-top {
+    background: linear-gradient(to bottom, #6f90f4, #637bc1); /* Change this to your desired background color */
+    border-color: transparent; /* Optionally remove the border */
+    border-bottom: 3px solid #12121c; /* Add border on the bottom */
+  }
+  .navbar-fixed-top .navbar-brand-title {
+    color: #fff; /* Change text color to ensure visibility */
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  #aboutTerrarium p {
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: auto; /* Centers the paragraph text */
+    margin-bottom: 20px;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="frame1transbg.png" alt="Logo" style="display: inline-block; width: 32px; height: 32px; margin-right: 5px; vertical-align: middle;">
+        <span class="navbar-brand-title">Pirarrium</span>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h2 class="margin">Livestream</h2>
+  <div class="embed-responsive embed-responsive-16by9" style="max-height:450px;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pt50HjucHME?si=HjDrLajeiH4QkAyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <h4 class="margin">Take a look at how Pirarrium is doing right now.</h4>
+    <button id="spinButton" class="btn btn-default btn-lg btn-spin">
+    <span class="glyphicon glyphicon-refresh"></span> Spin
+  </a>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h2 class="margin">Timelapse</h2>
+    <div class="embed-responsive embed-responsive-16by9" style="max-height:450px;">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LN4SdBDN5T8?si=9wIJ2JNvS2bimg27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  <h4>Timelaspe video of the progression of Pirarrium</h4>
+</div>
+
+<!-- Third Container -->
+<div class="container-fluid bg-3 text-center">
+  <h2 class="margin">Timelapse with Spin</h2>
+  <img src="kisspng-terrarium-glass-bell-jar-cloche-container-5b0879535a7b84.9558064615272820033706.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h4>Timelapse video of Pirarrium with a spin incorporated once a week</h4>
+</div>
+
+<!-- Fourth Container -->
+<div class="container-fluid bg-4 text-center" id="aboutTerrarium">
+  <h2 class="margin">About Pirarrium...</h2>
+  <p>Bacon ipsum dolor amet pork loin swine irure beef prosciutto ad sed cupim flank jowl shoulder kevin aute beef ribs kielbasa. Qui ea jerky kevin. Ea cow non sed filet mignon dolor enim nisi beef dolore ipsum ut shoulder. Chuck dolor cupim eu qui, pork chop non ea magna est excepteur ham hock corned beef. Fatback ball tip ullamco, ad et ea cow excepteur officia.</p>
+
+  <p>Lorem est porchetta leberkas irure aliqua. In cow ut occaecat, aliquip ham hock shoulder aute. Fugiat in adipisicing tail duis sausage sunt, short loin esse deserunt mollit ullamco turducken alcatra shankle. Elit pork chop tenderloin magna boudin beef ribs bresaola id in meatloaf shank biltong non. Dolor nisi shank occaecat, tail mollit ipsum biltong in meatloaf sirloin ullamco cupim. Occaecat commodo aute buffalo. Capicola cillum spare ribs pancetta drumstick, exercitation short loin proident.</p>
+
+  <p>Tongue proident est lorem nulla, enim brisket tri-tip chicken. Sint tempor laboris ut non. Bresaola reprehenderit pork chop non laborum minim cillum turducken venison t-bone swine enim bacon irure. T-bone turducken eu quis commodo laborum in reprehenderit. Do nisi pig bresaola pariatur strip steak, meatloaf id deserunt cow pastrami. Aliqua reprehenderit venison leberkas. Shankle landjaeger pariatur eiusmod cupidatat tenderloin.</p>
+
+  <p>Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</p>
+</div>
+
+<!-- Fifth Container (Grid) -->
+<div class="container-fluid bg-5 text-center">
+  <h2 class="margin">Creators</h2><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Adam J. Lacue</h3>
+      <img src="IMG_5650(2).JPG" class="img-responsive margin" style="width:100%" alt="Image">
+      <h4 class="role">Full-Stack Web Developer</h4>
+    </div>
+    <div class="col-sm-4">
+      <h3>Dylan Corfield</h3>
+      <img src="—Pngtree—user vector avatar_4830521.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <h4 class="role">DevOps Lead</h4>
+    </div>
+    <div class="col-sm-4">
+      <h3>Sam Krisko</h3>
+      <img src="—Pngtree—user vector avatar_4830521.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <h4 class="role">DevOps/Security Professional</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-6 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+<script>
+  function sendPostRequest() {
+    // Make an AJAX POST request to your backend server
+    fetch('https://pirarrium.com/api/spin', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({}) // You can pass data if needed
+    })
+    .then(response => {
+      if (response.ok) {
+        // If the request was successful, show a success message
+        console.log('Message published successfully');
+      } else {
+        // If there was an error, show the error message from the server
+        return response.json().then(data => {
+          throw new Error(data.error);
+        });
+      }
+    })
+    .catch(error => {
+      // If there was an error during the request, show the error message
+      alert('Error: ' + error.message);
+    });
+  }
+
+  // Add an event listener to the button to call the sendPostRequest function when clicked
+  document.getElementById('spinButton').addEventListener('click', sendPostRequest);
+</script>
+</body>
+</html>
