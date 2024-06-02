@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer for My Script Service
+
+[Timer]
+OnUnitActiveSec=5m
+Unit=myscript.service
+
+[Install]
+WantedBy=timers.target
